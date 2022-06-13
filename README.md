@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 0x16. C - Simple Shell
 
 Resources
@@ -58,6 +59,36 @@ Any form of plagiarism is strictly forbidden and will result in removal from the
 Requirements
 
 General
+=======
+## This is the second team project for ALX Software Engineering.
+
+## This project was carried out by George and David
+
+## Simple Shell Project
+
+Write a simple unix command line interpreter
+
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+
+### General
+
+1. Who designed and implemented the original Unix operating system
+2. Who wrote the first version of the UNIX shell
+3. Who invented the B programming language (the direct predecessor to the C programming language)
+4. Who is Ken Thompson
+5. How does a shell work
+6. What is a pid and a ppid
+7. How to manipulate the environment of the current process
+8. What is the difference between a function and a system call
+9. How to create processes
+10. What are the three prototypes of main
+11. How does the shell use the PATH to find the programs
+12. How to execute another program with the execve system call
+13. How to suspend the execution of a process until one of its children terminates
+14. What is EOF / “end-of-file”?
+
+### Requirements
+>>>>>>> 599172c20b98857348e853cc2441322ffafcda1a
 
 Allowed editors: vi, vim, emacs
 
@@ -81,6 +112,7 @@ Write a README with the description of your project
 
 You should have an AUTHORS file at the root of your repository, listing all individuals having contributed content to the repository. Format, see Docker
 
+<<<<<<< HEAD
 
 GitHub
 *There should be one project repository per group. If you and your partner have a repository with the same name in both your accounts, you risk a 0% score. Add your partner as a collaborator. *
@@ -90,6 +122,11 @@ More Info
 
 Output
 
+=======
+### Output
+
+
+>>>>>>> 599172c20b98857348e853cc2441322ffafcda1a
 Unless specified otherwise, your program must have the exact same output as sh (/bin/sh) as well as the exact same error output.
 
 The only difference is when you print an error, the name of the program must be equivalent to your argv[0] (See below)
@@ -109,6 +146,7 @@ $ echo "qwerty" | ./././hsh
 ./././hsh: 1: qwerty: not found
 $
 
+<<<<<<< HEAD
 List of allowed functions and system calls
 access (man 2 access)
 chdir (man 2 chdir)
@@ -148,6 +186,75 @@ Your shell will be compiled this way:
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 Testing
+=======
+### List of allowed functions and system calls
+
+access (man 2 access)
+
+chdir (man 2 chdir)
+
+close (man 2 close)
+
+closedir (man 3 closedir)
+
+execve (man 2 execve)
+
+exit (man 3 exit)
+
+exit (man 2 exit)
+
+fflush (man 3 fflush)
+
+fork (man 2 fork)
+
+free (man 3 free)
+
+getcwd (man 3 getcwd)
+
+getline (man 3 getline)
+
+getpid (man 2 getpid)
+
+isatty (man 3 isatty)
+
+kill (man 2 kill)
+
+malloc (man 3 malloc)
+
+open (man 2 open)
+
+opendir (man 3 opendir)
+
+perror (man 3 perror)
+
+read (man 2 read)
+
+readdir (man 3 readdir)
+
+signal (man 2 signal)
+
+stat (__xstat) (man 2 stat)
+
+lstat (lxstat) (man 2 lstat)
+
+fstat (fxstat) (man 2 fstat)
+
+strtok (man 3 strtok)
+
+wait (man 2 wait)
+
+
+waitpid (man 2 waitpid)
+
+wait3 (man 2 wait3)
+
+wait4 (man 2 wait4)
+
+write (man 2 write)
+
+
+### Testing
+>>>>>>> 599172c20b98857348e853cc2441322ffafcda1a
 
 Your shell should work like this in interactive mode:
 
@@ -157,7 +264,10 @@ hsh main.c shell.c
 ($)
 ($) exit
 $
+<<<<<<< HEAD
 
+=======
+>>>>>>> 599172c20b98857348e853cc2441322ffafcda1a
 But also in non-interactive mode:
 
 $ echo "/bin/ls" | ./hsh
@@ -172,6 +282,13 @@ hsh main.c shell.c test_ls_2
 hsh main.c shell.c test_ls_2
 $
 
+<<<<<<< HEAD
 Checks
 
 The Checker will be released at the end of the project (1-2 days before the deadline). We strongly encourage the entire class to work together to create a suite of checks covering both regular tests and edge cases for each task. See task 8. Test suite.
+=======
+### Checks
+
+The Checker will be released at the end of the project (1-2 days before the deadline). We strongly encourage the entire class to work together to create a suite of checks covering both regulartests and edge cases for each task. See task 8. Test suite.
+
+>>>>>>> 599172c20b98857348e853cc2441322ffafcda1a
